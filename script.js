@@ -18,7 +18,7 @@ async function searchProducts() {
 
     try {
         // Simular llamada al backend
-        const response = await fetch('https://your-google-apps-script-url', {
+        const response = await fetch('https://script.google.com/macros/s/AKfycbw-l4sShMoHXEqs6UmcDEKa2vL3RhV0pAI0086KA9PUqp45AKQV9atQTolurJHtcys7lA/exec', {
             method: 'POST',
             body: JSON.stringify({ action: 'search', query }),
             headers: {
